@@ -82,6 +82,7 @@ Think carefully about the functions of given websites, and please note that the 
 
 ### Running WebVoyager
 After setting up the environment, you can start running WebVoyager. 
+Use can use Gemini API, by comment the code for GPT_API from line 1 to line 582
 
  1. Copy the examples you want to test into `data/tasks_test.jsonl`. For Booking and Google Flights tasks, please manually update the date in the task if it is outdated.
  2. Modify the api_key in `run.sh` 
